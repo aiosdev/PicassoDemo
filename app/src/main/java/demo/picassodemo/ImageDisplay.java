@@ -28,7 +28,7 @@ public class ImageDisplay extends AppCompatActivity {
 
 //        new DownloadImage().execute(url);
 
-        Picasso.with(this).load(url).fit().into(imageView);
+        Picasso.with(this).load(url).placeholder(R.drawable.placeholder).fit().into(imageView);
     }
 
 //    private  class DownloadImage extends AsyncTask<String, Void, Bitmap>{

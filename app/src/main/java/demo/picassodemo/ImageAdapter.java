@@ -57,7 +57,7 @@ public class ImageAdapter extends BaseAdapter {
         }else{
             imageview = (ImageView) convertView;
         }
-//        ImageView imageView = (ImageView) imageview.findViewById(R.id.image_view);
+//        ImageView imageView = (ImageView) view.findViewById(R.id.gv);
         System.out.println("-------==========++++++++imageView为" + imageview);
         String url = (String) getItem(position);
         Picasso.with(context)
